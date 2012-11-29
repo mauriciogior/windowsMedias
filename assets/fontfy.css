@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Andale Mono";
+  src: url("fontfy/AndaleMono.eot");
+  src: local("☺"),
+    url("fontfy/AndaleMono.woff") format("woff"),
+    url("fontfy/AndaleMono.otf") format("opentype"),
+    url("fontfy/AndaleMono.svg#filename") format("svg");
+  }
+@font-face {
+  font-family: "Your italic typeface";
+  src: url("fontfy/AndaleMono-ital.eot");
+  src: local("☺"),
+    url("fontfy/AndaleMono-ital.woff") format("woff"),
+    url("fontfy/AndaleMono-ital.otf") format("opentype"),
+    url("fontfy/AndaleMono-ital.svg#filename-ital") format("svg");
+  }
+h2 { font-family: "Your typeface", Georgia, serif; }
+h2 em { font-family: "Your italic typeface", Georgia, serif; }
+em { font-style: italic; }
